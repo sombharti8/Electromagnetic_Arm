@@ -40,7 +40,7 @@ Messages starting with "RESET" reset the arrays that store the positions of serv
 Messages starting with "RUN" execute the sequence of servo movements stored in the arrays. The program moves the servos incrementally from one position to another, with a delay between each increment to control the speed of the movement. The program also checks for incoming messages while executing the sequence and responds to messages starting with "PAUSE" or "RESET" accordingly.
 Overall, this program controls a robot arm with four servo motors using a Bluetooth module and allows for the creation and execution of predefined sequences of servo movements.
 
-sketch.apr2.ino
+Wifi.ino
 
 This code is designed to run on an Arduino board with a WiFiNINA shield and a servo motor connected to pin 10. It creates a server on port 80 and listens for incoming client requests. When a client connects, it waits for the client to send a request and then sends a response back to the client.
 
